@@ -1,0 +1,52 @@
+body {
+    width: 100%;
+    padding-top: 78px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+.nav-link:hover{
+    color: #e80368;
+    text-decoration: underline;
+}
+.nav-link:hover .text-dark{
+    font-size: 20px;
+
+}
+
+
+.dropdown:hover {
+    color: #1904ff;
+    text-decoration: underline;
+}
+.card:hover{
+
+}
+
+.dropdown:hover .dropdown-menu a {
+    /*background-image: url("web\img\background\background2.jpg");*/
+    color: #226bff;
+}
+.hover13 div:hover img {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
